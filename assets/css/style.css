@@ -62,3 +62,69 @@
     height: 100%;
     object-fit: cover;
 }
+
+.bg-orange {
+    background-color: #f4a000;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.object-fit-cover {
+    object-fit: cover;
+    height: 100%;
+}
+
+.custom-btn-orange {
+    background-color: #f57c00;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn-orange:hover {
+    background-color: #e86b00;
+}
+
+/* MOST POPULAR SECTION*/
+.popular-card {
+    height: 300px;
+}
+
+/* Image Block */
+.popular-image {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.popular-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Content Block */
+.popular-content {
+    background-color: #fbc108;
+    height: 100%;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .popular-card {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .popular-image {
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .popular-content {
+        padding: 2rem 1.5rem;
+    }
+}
