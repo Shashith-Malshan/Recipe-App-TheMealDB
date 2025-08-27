@@ -125,7 +125,6 @@
     background-color: #e56c00;
 }
 
-/* 🔁 Mobile Responsiveness */
 @media (max-width: 768px) {
     .popular-card {
         flex-direction: column;
@@ -141,13 +140,13 @@
         height: 100%;
     }
 }
-.get-btn{
+
+.get-btn {
     width: 300px;
 }
 
 .footer {
     background-color: #f57c00;
-    /* Orange background */
     font-family: 'Segoe UI', sans-serif;
 }
 
