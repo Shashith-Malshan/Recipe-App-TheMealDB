@@ -1,4 +1,4 @@
-# Recipe App - TheMealDB
+# MealMate (Recipe App - TheMealDB)
 
 MealMate is a simple frontend recipe web app built with HTML, CSS, and JavaScript using [TheMealDB](https://www.themealdb.com/) API.
 
